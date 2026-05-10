@@ -1,0 +1,45 @@
+[[main]]
+  none = "none"
+
+[[main]]
+  name = "Articles"
+  pageRef = "posts"
+  weight = 1
+
+[[main]]
+  identifier = "categories"
+  name = "Catégories"
+  pageRef = "categories"
+  weight = 2
+
+[[main]]
+  name = "MYOG"
+  parent = "categories"
+  pageRef = "myog"
+  weight = 21
+
+[[main]]
+  name = "Impression 3D"
+  parent = "categories"
+  pageRef = "3d-printing"
+  weight = 22
+
+[[main]]
+  name = "Bike"
+  parent = "categories"
+  pageRef = "bike"
+  weight = 23
+
+[[main]]
+  identifier = "projects"
+  name = "Projets"
+  pageRef = "projects"
+  weight = 3
+
+[[main]]
+  name = "A Propos"
+  pageRef = "about"
+  weight = 4
+
+[[footer]]
+  none = "none"

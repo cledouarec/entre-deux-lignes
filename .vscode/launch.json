@@ -1,0 +1,11 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Hugo: serve",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "hugo serve --buildDrafts --navigateToChanged"
+    }
+  ]
+}
